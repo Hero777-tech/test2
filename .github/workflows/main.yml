@@ -25,6 +25,9 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: List files in ./dist directory (before deployment)
+        run: ls -l ./dist
+
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
         with:
@@ -43,6 +46,9 @@ jobs:
         with:
           name: production-files
           path: ./dist
+
+      - name: List files in ./dist directory (after deployment)
+        run: ls -l ./dist
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
