@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Button } from "./styles/Button";
 import { NavLink } from "react-router-dom";
 import Home from "./Home";
+import Services from "./Services";
 
 
 const Error = () => {
