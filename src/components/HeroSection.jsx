@@ -18,7 +18,7 @@ const HeroSection = () => {
           Unleash Your Digital Potential with Our Expertise. Your Success, Our Mission.
           </p>
           <Button className="btn hireme-btn">
-            <NavLink to="/contact"> hire me </NavLink>
+            <NavLink to="/test2/contact"> hire me </NavLink>
           </Button>
         </div>
 
