@@ -43,14 +43,14 @@ const App = () => {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/service" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/test2/" element={<Home />} />
+          <Route path="/test2/about" element={<About />} />
+          <Route path="/test2/service" element={<Services />} />
+          <Route path="/test2/contact" element={<Contact />} />
           {/* <Route path="/Prot" element ={<Prot/>} /> */}
           <Route path="/Treams" element={<Teams/>} />
           <Route path="/Testx" element={<Testx/>} />
-          <Route path="/Protf" element={<Protf/>} />
+          <Route path="/test2/Protf" element={<Protf/>} />
           <Route path="*" element={<Error />} />
         </Routes>
 
