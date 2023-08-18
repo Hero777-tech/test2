@@ -21,7 +21,7 @@ const AppProvider = ({ children }) => {
       type: "HOME_UPDATE",
       payload: {
         name: "Aditya Nath",
-        image: "./images/hero_section.svg",
+        image: "/images/hero_section.svg",
       },
     });
   };
