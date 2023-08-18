@@ -2,21 +2,23 @@ import React from "react";
 import styled from "styled-components";
 import { Button } from "./styles/Button";
 import { NavLink } from "react-router-dom";
-<<<<<<< HEAD
-
-const Error = () => {
-  return (
-    <Wrapper>
-      <img src="../images/error.svg" alt="error" />
-      <NavLink to="/">
-        <Button className="btn"> Go Back</Button>
-      </NavLink>
-    </Wrapper>
-=======
-import HeroSection from "./components/HeroSection";
 import Home from "./Home";
 
+
 const Error = () => {
+  
+  // return (
+  //   <Wrapper>
+  //     <img src="../images/error.svg" alt="error" />
+  //     <NavLink to="/">
+  //       <Button className="btn"> Go Back</Button>
+  //     </NavLink>
+  //   </Wrapper>
+
+// import HeroSection from "./components/HeroSection";
+// import Home from "./Home";
+
+// const Error = () => {
   return (
     // <HeroSection />
     <Home />
@@ -27,7 +29,7 @@ const Error = () => {
     //     <Button className="btn"> Go Back</Button>
     //   </NavLink>
     // </Wrapper>
->>>>>>> 1eb4478 (update2ndversion)
+
   );
 };
 
