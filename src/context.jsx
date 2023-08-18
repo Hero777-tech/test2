@@ -21,7 +21,11 @@ const AppProvider = ({ children }) => {
       type: "HOME_UPDATE",
       payload: {
         name: "Aditya Nath",
+<<<<<<< HEAD
         image: "/images/hero_section.svg",
+=======
+        image: "https://raw.githubusercontent.com/Hero777-tech/dep-tst/a71d069b96085ff7b429f8a6a01f31cac0150776/public/images/hero_section.svg",
+>>>>>>> 1eb4478 (update2ndversion)
       },
     });
   };
@@ -31,7 +35,12 @@ const AppProvider = ({ children }) => {
       type: "ABOUT_UPDATE",
       payload: {
         name: "Dhruv Roy",
+<<<<<<< HEAD
         image: "./images/about_section.svg",
+=======
+        // image: "./images/about_section.svg",
+        image : "https://raw.githubusercontent.com/Hero777-tech/dep-tst/a71d069b96085ff7b429f8a6a01f31cac0150776/public/images/about_section.svg",
+>>>>>>> 1eb4478 (update2ndversion)
       },
     });
   };
