@@ -19,8 +19,9 @@ const Protf = () => {
             <img src="https://raw.githubusercontent.com/Hero777-tech/dep-tst/main/public/images/prot_1main.png" alt="now" />
 
             <div className="layer">
-              <h3>Social Media App</h3>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <h3>AD Design</h3>
+              <p>Elevate your brand with eye-catching AD designs. We craft impactful visuals using 
+                tools like Canva, blending vibrant colors and modern fonts to captivate your audience.</p>
               <a href="#"><FaExternalLinkAlt className="icons" /></a>
             </div>
 
@@ -123,7 +124,8 @@ const Wrapper = styled.section`
 
 .layer h3{
   font-weight: 500;
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  color:green;
 }
 
 .layer a{
