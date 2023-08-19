@@ -896,7 +896,7 @@ li {
       left: 40%;
     }
   }
-`,ng=()=>d.jsx(rg,{children:d.jsx("div",{id:"portfolio",children:d.jsxs("div",{id:"container",children:[d.jsx("h1",{className:"sub-title",children:"CLIENTS"}),d.jsxs("div",{className:"work-list",children:[d.jsxs("div",{className:"work",children:[d.jsx("img",{src:"https://raw.githubusercontent.com/Hero777-tech/dep-tst/main/public/images/prot_1main.png",alt:"now"}),d.jsxs("div",{className:"layer",children:[d.jsx("h3",{children:"Social Media App"}),d.jsx("p",{children:"Lorem ipsum dolor sit amet consectetur."}),d.jsx("a",{href:"#",children:d.jsx(fl,{className:"icons"})})]})]}),d.jsxs("div",{className:"work",children:[d.jsx("img",{src:"https://raw.githubusercontent.com/Hero777-tech/dep-tst/main/public/images/prot_2main.png",alt:"now"}),d.jsxs("div",{className:"layer",children:[d.jsx("h3",{children:"22Social Media App"}),d.jsx("p",{children:"Lorem ipsum dolor sit amet consectetur."}),d.jsx("a",{href:"#",children:d.jsx(fl,{className:"icons"})})]})]}),d.jsxs("div",{className:"work",children:[d.jsx("img",{src:"https://raw.githubusercontent.com/Hero777-tech/dep-tst/main/public/images/prop3main.png",alt:"now"}),d.jsxs("div",{className:"layer",children:[d.jsx("h3",{children:"333Social Media App"}),d.jsx("p",{children:"Lorem ipsum dolor sit amet consectetur."}),d.jsx("a",{href:"#",children:d.jsx(fl,{className:"icons"})})]})]})]}),d.jsx("a",{href:"/test2/contact/",className:"btx",children:"See more"})]})})}),rg=Ce.section`
+`,ng=()=>d.jsx(rg,{children:d.jsx("div",{id:"portfolio",children:d.jsxs("div",{id:"container",children:[d.jsx("h1",{className:"sub-title",children:"CLIENTS"}),d.jsxs("div",{className:"work-list",children:[d.jsxs("div",{className:"work",children:[d.jsx("img",{src:"https://raw.githubusercontent.com/Hero777-tech/dep-tst/main/public/images/prot_1main.png",alt:"now"}),d.jsxs("div",{className:"layer",children:[d.jsx("h3",{children:"AD Design"}),d.jsx("p",{children:"Elevate your brand with eye-catching AD designs. We craft impactful visuals using tools like Canva, blending vibrant colors and modern fonts to captivate your audience."}),d.jsx("a",{href:"#",children:d.jsx(fl,{className:"icons"})})]})]}),d.jsxs("div",{className:"work",children:[d.jsx("img",{src:"https://raw.githubusercontent.com/Hero777-tech/dep-tst/main/public/images/prot_2main.png",alt:"now"}),d.jsxs("div",{className:"layer",children:[d.jsx("h3",{children:"22Social Media App"}),d.jsx("p",{children:"Lorem ipsum dolor sit amet consectetur."}),d.jsx("a",{href:"#",children:d.jsx(fl,{className:"icons"})})]})]}),d.jsxs("div",{className:"work",children:[d.jsx("img",{src:"https://raw.githubusercontent.com/Hero777-tech/dep-tst/main/public/images/prop3main.png",alt:"now"}),d.jsxs("div",{className:"layer",children:[d.jsx("h3",{children:"333Social Media App"}),d.jsx("p",{children:"Lorem ipsum dolor sit amet consectetur."}),d.jsx("a",{href:"#",children:d.jsx(fl,{className:"icons"})})]})]})]}),d.jsx("a",{href:"/test2/contact/",className:"btx",children:"See more"})]})})}),rg=Ce.section`
 
 #portfolio{
   padding:50px 10px;
@@ -950,7 +950,8 @@ li {
 
 .layer h3{
   font-weight: 500;
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  color:green;
 }
 
 .layer a{
