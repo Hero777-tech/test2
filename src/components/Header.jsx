@@ -6,7 +6,7 @@ import styled from "styled-components";
 const Header = () => {
   return (
     <MainHeader>
-      <NavLink to="/">
+      <NavLink to="/test2/">
         <img src="./images/logoo.png" alt="digital" className="logo" />
       </NavLink>
       <Navbar />

@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from "styled-components";
+// import { Button } from "./styles/Button";
+import { NavLink } from 'react-router-dom';
 
 
 const Teams = () => {
@@ -12,13 +14,15 @@ const Teams = () => {
 
         <div className="t-pic">
             <div className="t-ppc">
-            <img src="https://www.seiu1000.org/sites/main/files/main-images/camera_lense_0.jpeg" alt="" className="p-one"/>
-            <p className="t-name"><strong>Ankit sukla</strong></p>
+            <img src="https://media.istockphoto.com/id/627909282/photo/trust-in-our-business.jpg?s=612x612&w=0&k=20&c=q-hm6in8qxi4wcJoicAlmusSlut7CIjKuOkn2F0BFh0=" alt="digital mark CEO" className="p-one"/>
+            <p className="t-name">Rishti Dey</p>
+            <h3>Chief Executive Officer</h3>
            </div>
             
            <div className="t-ppc">
-            <img src="https://www.seiu1000.org/sites/main/files/main-images/camera_lense_0.jpeg" alt="" className="p-one"/>
-            <p className="t-name"><strong>Pankaj Tiwari</strong></p>
+            <img src="https://raw.githubusercontent.com/Hero777-tech/dep-tst/main/public/images/HR_manager_DigitalMark.png" alt="digital mark HR" className="p-one"/>
+            <p className="t-name">Pankaj Tiwari</p>
+            <h3>Human Resource Manager</h3>
            </div>
 
            {/* <div className="t-ppc">
@@ -35,8 +39,11 @@ const Teams = () => {
             <p>Our team consist of more than 30 experienced
                 and very<br/> passionate people at the cutting edge of
                 all things digital <br/>marketing, we always give our best
-                for you <br/>
+                for you.
             </p>
+            <button className="btxl">
+                <NavLink to="/test2/contact" className="yo">CONTACT US</NavLink>
+            </button>
         </div>
 
 
@@ -60,6 +67,7 @@ const Wrapper = styled.section`
 //     // justify-content: space-between;
 //     // align-itemm: center;
 //     padding: 3px;
+margin-top:80px;
 // }
 
 
@@ -85,7 +93,13 @@ img{
     // display:flex;
     // justify-content: space-evenly;
     // align-items: center;
-    padding-left: 20px
+    padding-left: 20px;
+    text-align:center;
+}
+
+.t-ppc p{
+    text-align:center;
+    font-weight: 510;
 }
 .t-pic{
     display:flex;
@@ -101,7 +115,7 @@ img{
 }
 p{
     margin:0px;
-    margin-top:8px;
+    margin-top:0px;
     font-size: 1.9em;
     color: #A89EFF;
     font-weight:450;
@@ -116,6 +130,11 @@ h1{
     color:#E9A932;
 }
 
+.t-ppc{
+    color:#E8A932;
+    text-align:center;
+}
+
 @media (max-width: 768px) {
     .t-section {
       display: none; /* Hide the section on mobile devices */
@@ -126,6 +145,40 @@ h1{
       display: none; /* Hide the section on tablet devices */
     }
   }
+
+// revoking global styles with updation 1st preference;
+
+.btxl{
+  text-decoration: none;
+  font-color:green;
+//   max-width: auto;
+  background-color:#fd6f00;
+//   color: rgb(255 255 255 );
+  padding: 1.4rem 2.4rem;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+//   -webkit-transition: all 0.3s ease 0s;
+//   -moz-transition: all 0.3s ease 0s;
+//   -o-transition: all 0.3s ease 0s;
+  color:white;
+  border-radius:8% ;
+  margin-top:22px;
+
+  &:hover,
+  &:active {
+    box-shadow: 0 2rem 2rem 0 rgb(132 144 255 / 30%);
+    box-shadow: ${({ theme }) => theme.colors.shadowSupport};
+    transform: scale(0.96);
+}
+
+.yo{
+    color:white;
+}
+
+
 
 `;
 

@@ -16,24 +16,26 @@ const Protf = () => {
         <div className="work-list">
 
           <div className="work">
-            <img src="https://raw.githubusercontent.com/Hero777-tech/dep-tst/main/public/images/prot_1main.png" alt="now" />
+            <img src="https://raw.githubusercontent.com/Hero777-tech/dep-tst/main/public/images/comp1.png" alt="Digital Mark portfolio" />
 
             <div className="layer">
               <h3>AD Design</h3>
               <p>Elevate your brand with eye-catching AD designs. We craft impactful visuals using 
                 tools like Canva, blending vibrant colors and modern fonts to captivate your audience.</p>
-              <a href="#"><FaExternalLinkAlt className="icons" /></a>
+              <a href="https://github.com/Hero777-tech" target='0'><FaExternalLinkAlt className="icons" /></a>
             </div>
 
           </div>
 
           <div className="work">
-            <img src="https://raw.githubusercontent.com/Hero777-tech/dep-tst/main/public/images/prot_2main.png" alt="now" />
+            <img src="https://raw.githubusercontent.com/Hero777-tech/dep-tst/main/public/images/comp2.png" alt="Digital Mark portfolio" />
 
             <div className="layer">
-              <h3>22Social Media App</h3>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-              <a href="#"><FaExternalLinkAlt className="icons" /></a>
+              <h3>Website Design</h3>
+              <p>Elevate your brand with captivating website design. Crafted using tools
+                like Wix and Wordpress moreover in this we will use react HTML5 and CSS.
+              </p>
+              <a href="https://github.com/Hero777-tech" target='0'><FaExternalLinkAlt className="icons" /></a>
             </div>
 
 
@@ -41,12 +43,15 @@ const Protf = () => {
           </div>
 
           <div className="work">
-            <img src="https://raw.githubusercontent.com/Hero777-tech/dep-tst/main/public/images/prop3main.png" alt="now" />
+            <img src="https://raw.githubusercontent.com/Hero777-tech/dep-tst/main/public/images/comp3.png" alt="Digital Mark portfolio" />
 
             <div className="layer">
-              <h3>333Social Media App</h3>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-              <a href="#"><FaExternalLinkAlt className="icons" /></a>
+              <h3>AI Chatbot Marketing</h3>
+              <p>Elevate engagement with our AI Chatbot. Powered by Chatfuel,
+                it comes handy with user interaction, collect insights, furthermore
+                it refines strategies based on valuable feedbacks. 
+              </p>
+              <a href="https://www.linkedin.com/in/aditya-nath-453341221/"target='0'><FaExternalLinkAlt className="icons" /></a>
             </div>
 
 
@@ -76,6 +81,7 @@ const Wrapper = styled.section`
   padding:50px 10px;
   // margin: 20px;
   background:#f1f1f1;
+  text-align:center;
 }
 
 .work-list{
@@ -105,7 +111,7 @@ const Wrapper = styled.section`
   height:0;
   // background:linear-gradient(rgba(0,0,0,0),#f9f);
   // background:linear-gradient(rgba(0,202,20,2),#f9f);
-  background:linear-gradient(rgba(0,0,0,0),#ffc966);
+  background:linear-gradient(rgba(0,0,0,0.5),#ffc966);
 
   border-radius:10px;
   position:absolute;
@@ -123,9 +129,18 @@ const Wrapper = styled.section`
 }
 
 .layer h3{
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 20px;
-  color:green;
+  color:#FFA500;
+}
+
+.layer p{ 
+  font-weight: 500;
+  // bottom-shadow: 20px;
+  // color:#fff;
+  color:#FFF;
+  font-size:18px;
+
 }
 
 .layer a{

@@ -47,7 +47,7 @@ const Testx = () => {
                     <FaStar className="icons" />
                     {/* <FaStarHalfAlt className="icon" /> */}
                    <p>
-                   Digitla Mark provided exceptional insights that revolutionized my digital strategy. Their expertise amplified my brands reach. Highly grateful for their transformative guidance.
+                   Digital Mark provided exceptional insights that revolutionized my digital strategy. Their expertise amplified my brands reach. Highly grateful for their transformative guidance.
                    </p> 
                 </div>
                 
