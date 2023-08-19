@@ -31,7 +31,7 @@ const HeroSection = () => {
           </picture>
         </div>
       </div>
-      
+      {/* solve issue from here for reloading and n 404 error 404.html and logic file in index.html been created using https://github.com/ErickKS/vite-react-router/blob/main/index.html */}
     </Wrapper>
     
   );
