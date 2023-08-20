@@ -14,7 +14,7 @@ const Teams = () => {
 
         <div className="t-pic">
             <div className="t-ppc">
-            <img src="https://media.istockphoto.com/id/627909282/photo/trust-in-our-business.jpg?s=612x612&w=0&k=20&c=q-hm6in8qxi4wcJoicAlmusSlut7CIjKuOkn2F0BFh0=" alt="digital mark CEO" className="p-one"/>
+            <img src="https://media.discordapp.net/attachments/984632520471633920/1135235914076016640/bronkstar_female_adorbale_software_developer_ist_listing_to_mus_c5d3c176-d13b-41c4-a780-9e1b6f191c75.png" alt="digital mark CEO" className="p-one"/>
             <p className="t-name">Rishti Dey</p>
             <h3>Chief Executive Officer</h3>
            </div>
@@ -101,6 +101,11 @@ img{
     text-align:center;
     font-weight: 510;
 }
+
+.t-ppc img{
+    height:200px;
+}
+
 .t-pic{
     display:flex;
     // justify-content: space-evenly;
